@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+	<body>
+		<form>
+			Title: <br> <!--Titles drop down list-->
+			<select class="list" id="title">
+				<option value="Mr" id="Mr">Mr</option>
+				<option value="Mrs" id="Mrs">Mrs</option>
+				<option value="Miss" id="Miss">Miss</option>
+				<option value="Ms" id="Ms">Ms</option>
+				<option value="Sir" id="Sir">Sir</option>
+				<option value="Dr" id="Dr">Dr</option>
+				<option value="Lady" id="Lady">Lady</option>
+				<option value="Lord" id="Lord">Lord</option>
+				<option value="Mx" id="Mx">Mx</option>
+			</select> <br>
+			First Name: <!--Text entry fields-->
+			<input type="text" id = "firstname" name="firstname"><br>
+			Surname: 
+			<input type="text" id = "surname" name="surname"><br>
+			Job Title: 
+			<input type="text" id = "jobtitle" name="jobtitle"><br>
+			Email Address: 
+			<input type="text" id = "email" name="email"><br>
+			Company Name: 
+			<input type="text" id = "company" name="company"><br>
+			Mobile Phone Number: 
+			<input type="text" id = "mobilenumber" name="mobilenumber"><br>
+			Gender: <br> <!--Tick box gender field -->
+			<input type="radio" id = "male" name="gender" value="male" checked>
+			Male<br>
+			<input type="radio" id = "female" name="gender" value="female" >
+			Female<br>
+			<input type="radio" id="other" name="gender" value="other" >
+			Other<br>
+			<input type="radio" id = "n/a" name="gender" value="n/a" >
+			Prefer not to say<br>
+			<button onclick ="formSubmit()">Submit</button> <!--Submit button-->
+		</form>
+	</body>
+	<script src="script.js"></script> <!--Script link to js-->
+</html>

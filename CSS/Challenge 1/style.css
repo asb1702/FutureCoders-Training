@@ -1,0 +1,15 @@
+p {
+	color: Orange;
+	font-size: 20px;
+}
+#TextBox {
+	display: inline-block;
+}
+#ArtPic {
+	padding-left: 50px;
+	display: inline-block;
+}
+
+#People {
+	display: block;
+}

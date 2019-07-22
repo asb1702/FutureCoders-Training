@@ -1,0 +1,83 @@
+.Data { /*basic formatting for all data*/
+	font-family: calibri; 
+	font-size: 12px;
+	text-align: center;
+}
+.Heading {/* formatting for the titles of each data input*/
+	font-weight: bold;
+	font-family: Sans-serif;
+	font-size: 14px;
+}
+.Titles {
+	background-color: #f42d0e;
+	width: 200px;
+	float: center;
+	margin-left: 520px;
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+.Fname {
+	background-color: #e88925;
+	width: 200px;
+	float: center;
+	margin-left: 520px;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	
+}
+.Sname {
+	background-color: #f7df0c;
+	width: 200px;
+	float: center;
+	margin-left: 520px;
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+.Job {
+	background-color: #62f70c;
+	width: 200px;
+	float: center;
+	margin-left: 520px;
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+.Email {
+	background-color: #0cf7cf;
+	width: 200px;
+	float: center;
+	margin-left: 520px;
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+.Company {
+	background-color: #0c9cf7;
+	width: 200px;
+	float: center;
+	margin-left: 520px;
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+.Phone {
+	background-color: #2b0cf7;
+	width: 200px;
+	float: center;
+	margin-left: 520px;
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+.Gender {
+	background-color: #a742f4;
+	width: 200px;
+	float: center;
+	margin-left: 520px;
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+.Submit {
+	background-color: #f274e3;
+	width: 200px;
+	float: center;
+	margin-left: 520px;
+	padding-top: 5px;
+	padding-bottom: 10px;
+}

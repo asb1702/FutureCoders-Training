@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<!--Javascript challenge 3-->
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div class = "header data">
+			<h1>
+				ArtWorkingWords
+			</h1>
+		</div>
+		<div class = "mini-header data">
+			<h2>
+				Exhibitions Dashboard - Halpern Gallery
+			</h2>
+		</div>
+		<hr>
+		<div class = "data left">	
+			<h3 class = "mini-header">
+				Welcome User
+			</h3>
+			<div id = "dateSelector">
+				<form>
+					Select a start date: <br><input type = "date" id = "date1" name = "date1" class = "data"> <br><!--First data input form-->
+					Select an end date: <br><input type = "date" id = "date2" name = "date2" class = "data"> <!--Second data input form-->
+					<br><br>
+					<button onclick ="popup(event)">Submit</button> <!--Submit button-->
+				</form>	
+			</div>
+		</div>
+		<div class = "right data">
+		<h3 class = "mini-header">
+				Exhibitions
+			</h3>
+			<div id = "printHTML"> <!--prints each event-->
+			</div>
+			<p id = "totalHours"> <!--prints the total hours of each expired event-->
+				</p>
+		</div>
+	</body>
+	<script src="script.js"></script> <!--Script link to js-->
+</html>
